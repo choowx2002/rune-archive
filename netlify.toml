@@ -1,0 +1,8 @@
+# netlify.toml - Hexo 部署配置
+[build]
+  # 构建命令，Hexo 默认生成静态文件
+  command = "npx hexo generate"
+  # 构建输出目录，Hexo 默认是 public
+  publish = "public"
+  # 使用官方 Node.js 版本
+  environment = { NODE_VERSION = "24.5.0" }
