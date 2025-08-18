@@ -39,6 +39,12 @@ friends: 友情链接
 friend: 友情链接
 timeline: 时间轴
 shuoshuo: 说说
+rules: 规则
+rule: 规则
+docs: 文档
+official rules: 官方规则
+errata: 卡牌勘误
+guides: 新手引导
 
 # ----------------------------------------
 # 网站统计
@@ -93,3 +99,10 @@ ago:
 create_time: 创建
 update_time: 更新
 expired: "这篇文章最后更新于 %s 天前，内容可能已经过时。"
+
+# ----------------------------------------
+# 游戏翻译
+# ----------------------------------------
+keywords: 关键词
+keyword: 关键词
+showdown: 法术对抗

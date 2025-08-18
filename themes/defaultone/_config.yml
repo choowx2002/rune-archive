@@ -159,12 +159,9 @@ home_banner:
     style: default # default, reverse, center
     # Social links
     links:
-      fa-brands fa-qq:  https://qm.qq.com/q/ufD69u11Fm # your GitHub URL
+      fa-brands fa-qq:  https://qm.qq.com/q/ufD69u11Fm
+      # discord: https://discord.com/invite/n7hgcgbvpG
       fa-solid fa-arrow-up-right-from-square: https://riftbound.leagueoflegends.com/
-      zhihu:  # your ZhiHu URL
-      # twitter:  https://x.com/TencentCloudEO # your twitter URL
-      email:  # your email
-      # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
       weixin:  # your Wechat QRcode image URL
@@ -190,39 +187,25 @@ navbar:
   links:
     Home: 
       path: / 
-      icon: fa-regular fa-house # can be empty
-    Archives: 
+      icon: fa-regular fa-house
+    Guides:
+      path: /categories/guides/
+    FAQ:
+      path: /faq/
+    Errata:
+      submenus:
+        OGS: /errata/ogs
+        OGN: /errata/ogn
+    Docs:
+      path: /docs/
+    Changelog: 
       path: /archives 
-      icon: fa-regular fa-archive # can be empty
-    # Github: 
-    #   path: https://github.com/EvanNotFound
-    #   icon: fa-brands fa-github
-      # submenus:
-      #   Link1: /link1
-      #   Link2: /link2
-      #   Link3: /link3
-    Album: #
-      icon: fa-solid fa-image #icon
-      path: /masonry/ 
-    # Categories: 
-    #   icon: fa-solid fa-tags #icon
-    #   path: /tags/ #Link
-    Links: 
-      path: /links/
-      icon: fa-solid fa-link
     About: 
       path: /about
-      icon: fa-solid fa-circle-info
-      # submenus:
-      #   Me: /about
-      #   Github: https://github.com/EvanNotFound/hexo-theme-redefine
-      #   Blog: https://ohevan.com
-      #   Friends: /friends
-    # ...... # you can add more
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
     # Whether to enable
-    enable: false
+    enable: true
     # Preload search data when the page loads
     preload: true
 # NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -236,12 +219,12 @@ home:
     enable: true # Whether to enable sidebar
     position: left # Sidebar position. left, right
     first_item: menu # First item in sidebar. menu, info
-    announcement: # Announcement text
-    show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
+    announcement: "新网站 啥也没有" # Announcement text
+    show_on_mobile: false # Whether to show sidebar navigation on mobile sheet menu
     links:
-      Archives: 
-        path: /archives 
-        icon: fa-regular fa-archive # can be empty
+      # Archives: 
+      #   path: /archives 
+      #   icon: fa-regular fa-archive # can be empty
       # Tags: 
       #   path: /tags 
       #   icon: fa-regular fa-tags # can be empty
@@ -255,11 +238,11 @@ home:
   excerpt_length: 200 # Max length of article excerpt
   # Article categories visibility
   categories:
-    enable: false  # Whether to enable
+    enable: true  # Whether to enable
     limit: 3 # Max number of categories to display
   # Article tags visibility
   tags:
-    enable: false  # Whether to enable
+    enable: true  # Whether to enable
     limit: 3  # Max number of tags to display
 # HOME PAGE ARTICLE SETTINGS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
@@ -314,7 +297,7 @@ articles:
     init_open: true # Open toc by default
   # Whether to enable copyright notice
   copyright:
-    enable: true # Whether to enable
+    enable: false # Whether to enable
     default: cc_by_nc_sa # Default license, can be cc_by_nc_sa, cc_by_nd, cc_by_nc, cc_by_sa, cc_by, all_rights_reserved, public_domain
   # Whether to enable lazyload for images
   lazyload: true
@@ -338,8 +321,7 @@ articles:
 
 effects: 
   particles: true
-  cursoreffects: true
-
+  cursoreffects: false
 
 # COMMENT >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/posts/comment

@@ -1,5 +1,5 @@
 <div class="category-name">
-    <i class="fa-solid fa-folder"></i>&nbsp;<%= page.category %>
+    <i class="fa-solid fa-folder"></i>&nbsp;<%= __(page.category.toLowerCase()) %>
 </div>
 <div class="category-post-list">
     <%- partial('utils/posts-list', {posts: page.posts}) %>

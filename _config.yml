@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+title: 符文档案 Rune Archive
+subtitle: "Riftbound 消息更新与玩家资料库"
+description: "符文档案是一个非官方玩家社区项目，整理与分享《Riftbound》的规则、FAQ、更新动态与玩家心得。"
+keywords: riftbound, 符文战场, FAQ, 规则, 卡牌, 玩家社区, 更新日志
+author: 天龠wx
+language: zh-CN
 timezone: ''
 
 # URL
