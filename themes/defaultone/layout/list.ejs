@@ -1,0 +1,109 @@
+<%- partial('components/header/progress-bar') %>
+<% if (theme.global.preloader === true || theme.global.preloader.enable === true) { %>
+<%- partial('components/header/preloader') %>
+<% } %>
+<main class="page-container" id="swup">
+  <div class="main-content-container flex flex-col justify-between min-h-dvh">
+    <div class="main-content-header">
+      <%- partial('components/header/navbar') %>
+    </div>
+
+    <div class="main-content-body transition-fade-up">
+      <div class="main-content">
+
+        <div class="w-full flex items-center pt-6 pb-2">
+            <h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 py-3">
+                <%- __(page.title.toLowerCase()) %>
+            </h1>
+        </div>
+
+        <% const folder = page.folder || "_posts/errata"; %>
+        <% const errataPosts = site.posts
+            .filter(post => post.source.startsWith(folder))
+            .sort((a, b) => b.date - a.date); %>
+
+        <div class="home-content-container">
+          <ul class="home-article-list">
+            <% errataPosts.forEach(post => { %>
+              <li class="home-article-item">
+
+                <% if (post.sticky) { %>
+                  <div class="absolute top-[12px] right-[12px] text-[0.7rem] text-third-text-color rounded-medium bg-background-color-transparent-15 py-[2px] px-[10px] border border-border-color z-1 hover:text-first-text-color cursor-default">
+                    <i class="fa-regular fa-thumbtack mr-[3px] text-[0.65rem]"></i><%- __('sticky') %>
+                  </div>
+                <% } %>
+
+                <% let articleThumbnail = "";
+                if (post.cover || post.banner || (post.thumbnail && post.thumbnail !== false)) { %>
+                  <%
+                  if (post.thumbnail && post.thumbnail !== null) {
+                    articleThumbnail = post.thumbnail;
+                  } else if (post.cover && post.cover.includes("/")) {
+                    articleThumbnail = post.cover;
+                  } else if (post.banner && post.banner.includes("/")) {
+                    articleThumbnail = post.banner;
+                  } else if (config.marked.postAsset && config.marked.postAsset == true) {
+                    articleThumbnail = [post.path, post.cover || post.banner].join("/");
+                  }
+                  %>
+                <% } %>
+
+                <% if (post.thumbnail !== false && (post.thumbnail || post.cover || post.banner)) { %>
+                  <div id="home-article-thumbnail" class="home-article-thumbnail relative h-[150px] overflow-hidden rounded-t-large">
+                    <a href="<%- url_for(post.path) %>">
+                      <img src="<%- url_for(articleThumbnail) %>" alt="<%= post.title %>" class="w-full h-full object-cover dark:brightness-75 transition-all" />
+                    </a>
+                  </div>
+                <% } %>
+
+                <div class="flex flex-col gap-5 px-7 pb-7 <%= post.thumbnail !== false && (post.thumbnail || post.cover || post.banner) ? "pt-5" : "pt-7" %>">
+                  <h3 class="home-article-title">
+                    <a href="<%- url_for(post.path) %>">
+                      <%= post.title %>
+                    </a>
+                  </h3>
+
+                  <div class="home-article-content markdown-body">
+                    <% if (post.excerpt && post.excerpt == "false") { %>
+                    <% } else if (post.excerpt && post.excerpt !== "false") { %>
+                      <%- render(post.excerpt, "markdown") %>
+                    <% } else { %>
+                      <%
+                          const excerptLength = theme.home.excerpt_length || 200;
+                      %>
+                      <%- truncate(strip_html(post.content), {length: excerptLength}) %>
+                    <% } %>
+                  </div>
+
+                  <%- partial('pages/home/home-article', {post: post}) %>
+                </div>
+              </li>
+            <% }) %>
+          </ul>
+
+          <div class="home-paginator px-7 py-5">
+            <% // 模拟分页，如果文章很多可以改成 Hexo 分页插件或 posts-list partial %>
+            <%- partial('utils/paginator', {pageObject: {posts: errataPosts}}) %>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="main-content-footer">
+      <%- partial('components/footer/footer') %>
+    </div>
+  </div>
+  	<div class="right-side-tools-container">
+		<%- partial('utils/side-tools') %>
+	</div>
+
+	<%- partial('utils/image-viewer') %>
+  	<% if (theme.navbar.search.enable) { %>
+	<%- partial('utils/local-search') %>
+	<% } %>
+</main>
+
+<% if (theme.global.single_page !== false) { %>
+<%- partial('components/swup') %>
+<% } %>

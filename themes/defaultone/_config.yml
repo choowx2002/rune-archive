@@ -188,19 +188,19 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house
-    Guides:
-      path: /categories/guides/
-    FAQ:
-      path: /faq/
-    Errata:
+    Guides: 
+      path: /categories/guide/
+    Rules:
       submenus:
-        OGS: /errata/ogs
-        OGN: /errata/ogn
-    Docs:
-      path: /docs/
-    Changelog: 
-      path: /archives 
-    About: 
+        Rules FAQ: /categories/faq/rules/
+        Documentation: /docs/
+    Cards:
+      submenus:
+        Card FAQ: /cardFaqs/
+        Errata: /erratas/
+    Changelog:
+      path: /archives
+    About:
       path: /about
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
@@ -429,7 +429,7 @@ plugins:
       # .... you can add more audios here
   # Mermaid JS. Requires hexo-filter-mermaid-diagrams (npm i hexo-filter-mermaid-diagrams). See https://mermaid.js.org/
   mermaid:
-    enable: false # enable mermaid or not
+    enable: true # enable mermaid or not
     version: "11.4.1" # default v11.4.1
 # PLUGINS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 

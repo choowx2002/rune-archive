@@ -41,10 +41,18 @@ timeline: 时间轴
 shuoshuo: 说说
 rules: 规则
 rule: 规则
+rules faq: 规则 FAQ
+cards: 卡牌
+card: 卡牌
+card faq: 卡牌 FAQ
+documentation: 文档
 docs: 文档
 official rules: 官方规则
 errata: 卡牌勘误
+erratas: 卡牌勘误
 guides: 新手引导
+guide: 新手引导
+faq: FAQ
 
 # ----------------------------------------
 # 网站统计
