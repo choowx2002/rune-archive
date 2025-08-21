@@ -16,7 +16,7 @@ defaults:
   # Favicon
   favicon: /images/favicon.png
   # Site logo
-  logo: 
+  logo: /images/app_icon.png
   # Site avatar
   avatar: /images/avatar-me.jpg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
