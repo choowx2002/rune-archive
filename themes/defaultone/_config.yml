@@ -14,7 +14,7 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: /images/favicon.svg
+  favicon: /images/favicon.png
   # Site logo
   logo: 
   # Site avatar
@@ -28,7 +28,7 @@ colors:
   #Primary color
   primary: "#ef7d00"
   # Secondary color (TBD)
-  secondary:
+  secondary: "#000000"
   # Default theme mode initial value (will be overwritten by prefer-color-scheme)
   default_mode: dark # light, dark
 # COLORS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
