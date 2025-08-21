@@ -1,11 +1,11 @@
 <div class="home-article-meta-info-container">
     <div class="home-article-meta-info">
         <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="<%= post.date %>">
+            <span class="home-article-date" data-date="<%= post.updated %>">
                 <% if (theme.home.article_date_format == 'auto' || theme.home.article_date_format == 'relative') { %>
-                    <%= date(post.date, config.date_format) %>
+                    <%= date(post.updated, config.date_format) %>
                 <% } else { %>
-                    <%= date(post.date, theme.home.article_date_format) %>
+                    <%= date(post.updated, theme.home.article_date_format) %>
                 <% } %>
             </span>
         </span>
