@@ -219,7 +219,7 @@ home:
     enable: true # Whether to enable sidebar
     position: left # Sidebar position. left, right
     first_item: menu # First item in sidebar. menu, info
-    announcement: "新网站 啥也没有" # Announcement text
+    announcement: "已经更新官方小程序最新勘误和FAQ" # Announcement text
     show_on_mobile: false # Whether to show sidebar navigation on mobile sheet menu
     links:
       # Archives: 
@@ -239,7 +239,7 @@ home:
   # Article categories visibility
   categories:
     enable: true  # Whether to enable
-    limit: 3 # Max number of categories to display
+    limit: 1 # Max number of categories to display
   # Article tags visibility
   tags:
     enable: true  # Whether to enable
