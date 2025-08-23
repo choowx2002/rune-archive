@@ -1,0 +1,51 @@
+.qa-block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border-radius: 12px;
+    gap: 1rem; /* 新：元素间距 */
+}
+
+.qa-block .text {
+    flex: 1 1 300px;
+}
+
+.qa-block .text h3 {
+    margin-top: 0;
+}
+
+.qa-block .text p {
+    margin: 0.4em 0;
+}
+
+.qa-block .image {
+    flex: 0 1 200px;
+    text-align: center;
+}
+
+.qa-block .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* 📱 手机模式 */
+@media (max-width: 540.99px) {
+    .qa-block {
+        flex-direction: column;
+    }
+
+    .qa-block .text {
+        flex: 1 1 auto;
+    }
+
+    .qa-block .image {
+        margin-top: 0;
+        flex: none;
+    }
+
+    .qa-block .image img {
+        width: 75%;
+        margin-top: 0;
+    }
+}

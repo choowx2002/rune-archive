@@ -151,3 +151,35 @@ hexo.extend.helper.register("getPageTitle", function (page) {
 	// const config = type ? pageData[type] : null;
 	return page.title || this.__(type) || "Untitled";
 });
+
+hexo.extend.tag.register('faq', function(args, content){
+  const title = args[0] || '';
+  const imgUrl = args[1] || '';
+
+  let qa;
+  try {
+    qa = JSON.parse(content || '[]');
+  } catch(e) {
+    throw new Error('FAQ tag content must be a valid JSON array: ' + e.message);
+  }
+
+  let html = `<div class="qa-block markdown-body">`;
+  
+  html += `<div class="text">`;
+  if(title) html += `<h3 id="${title.replace(" ", "-")}">${title}</h3>`;
+  qa.forEach(item => {
+    html += `<p><b>Q: ${item.q}</b></p>`;
+    html += `<p><b>A:</b> ${item.a}</p>`;
+	html += `<br>`;
+  });
+  html += `</div>`; // .text
+
+  if(imgUrl){
+    html += `<div class="image"><img src="${imgUrl}" alt="${title}" /></div>`;
+  }
+
+  html += `</div>`; // .qa-block
+
+  return html;
+}, { ends: true });
+
