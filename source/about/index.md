@@ -30,7 +30,7 @@ date: 2025-08-18 00:00:00
 ---
 
 ## 技术说明
-本站由 **Hexo** 驱动。  
+本站由 **Hexo** 和 [hexo-theme-redefine](https://github.com/EvanNotFound/hexo-theme-redefine) 驱动。  
 所有文章均以 Markdown 编写，便于社区共同维护与更新。  
 
 ---

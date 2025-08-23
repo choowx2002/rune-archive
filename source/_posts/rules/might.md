@@ -3,8 +3,8 @@ title: 战力计算规则
 date: 2025-08-22 15:04:36
 excerpt: "本篇帮助你快速理解游戏中的 **战力计算**。 无论是单位对战、结算技能，还是进行比拼，都需要正确计算战力。"
 categories:
-  - faq
-  - rules
+  - 规则
+  - FAQ
 ---
 ## 战力计算须知
 当你需要计算一个单位的战力时，遵循 **“先加后减”** 和 **“锁定机制”** 的原则
@@ -33,9 +33,9 @@ flowchart LR
 <!-- tab 加战力例子 -->
 
 <div style="display:flex; justify-content:space-between; gap:10px;">
-  <img src="https://pub-36fd2538ad9044c491ed55668a85f172.r2.dev/OGN-052.png" alt="强强魄罗" style="flex:1; max-width:150px; height:auto;"/>
-  <img src="https://pub-36fd2538ad9044c491ed55668a85f172.r2.dev/OGN-066a.png" alt="阿狸" style="flex:1; max-width:150px; height:auto;"/>
-  <img src="https://pub-36fd2538ad9044c491ed55668a85f172.r2.dev/OGN-108.png" alt="聚合变异" style="flex:1; max-width:150px; height:auto;"/>
+  <img src="https://pub-36fd2538ad9044c491ed55668a85f172.r2.dev/OGN-052.png" alt="强强魄罗" style="flex:1; width: 33%; max-width:150px; height:auto;"/>
+  <img src="https://pub-36fd2538ad9044c491ed55668a85f172.r2.dev/OGN-066a.png" alt="阿狸" style="flex:1; width: 33%; max-width:150px; height:auto;"/>
+  <img src="https://pub-36fd2538ad9044c491ed55668a85f172.r2.dev/OGN-108.png" alt="聚合变异" style="flex:1; width: 33%; max-width:150px; height:auto;"/>
 </div>
 
 防守方拥有【强强魄罗】（2 战力，【坚守】+1 战力 = 3 战力）和【阿狸，嫣然狐媚】（4 战力）。【强强魄罗】受到了【聚合变异】的影响，战力需要增加至与【阿狸，嫣然狐媚】相同，也就是 +1 战力。由于【聚合变异】是一次性效果，会受到 **锁定机制** 的影响，因此锁定为 +1 战力。之后在重新计算时，【强强魄罗】依旧是 +1 战力，而不会变成 +2 战力去再次追平【阿狸，嫣然狐媚】的战力。

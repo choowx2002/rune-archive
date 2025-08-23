@@ -65,7 +65,7 @@ global:
   # Scroll progress
   scroll_progress:
     bar: false # progress bar
-    percentage: true # percentage
+    percentage: false # percentage
   # Website counter
   website_counter:
     url: https://cn.vercount.one/js # counter API URL (no need to change)
@@ -111,7 +111,7 @@ home_banner:
   # Whether to enable home banner
   enable: true
   # style of home banner
-  style: fixed # static or fixed
+  style: static # static or fixed
   # Home banner image
   image: 
     light: /images/bg-main.jpg # light mode
@@ -188,11 +188,11 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house
-    Guides: 
-      path: /categories/guide/
+    # Guides: 
+    #   path: /categories/教学/
     Rules:
       submenus:
-        Rules FAQ: /categories/faq/rules/
+        Rules FAQ: /rules/
         Documentation: /docs/
     Cards:
       submenus:
@@ -235,7 +235,7 @@ home:
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
   # Article excerpt length
-  excerpt_length: 200 # Max length of article excerpt
+  excerpt_length: 100 # Max length of article excerpt
   # Article categories visibility
   categories:
     enable: true  # Whether to enable
@@ -376,7 +376,7 @@ footer:
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2022/8/17 11:45:14
+  start: 2025/8/1 00:00:00
   # Site statistics
   statistics: true # show site statistics or not (total articles, total words)
   # Footer message
@@ -450,7 +450,7 @@ cdn:
   # Whether to enable CDN
   enable: false
   # CDN Provider
-  provider: npmmirror # npmmirror, zstatic, cdnjs, jsdelivr, unpkg, custom
+  provider: aliyun # npmmirror, zstatic, cdnjs, jsdelivr, unpkg, custom
   # Custom CDN URL
   # format example: https://cdn.custom.com/hexo-theme-redefine/${version}/source/${path}
   # The ${path} must leads to the root of the "source" folder of the theme

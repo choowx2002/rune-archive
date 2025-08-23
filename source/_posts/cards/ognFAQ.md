@@ -3,8 +3,8 @@ title: OGN系列 FAQ
 date: 2025-08-21 21:00:00
 excerpt: "关于起源系列的常见问题"
 categories:
- - faq
- - cards
+ - 卡牌
+ - FAQ
 tags:
  - OGN
 ---

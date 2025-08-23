@@ -3,8 +3,8 @@ title: 选择目标的规则
 date: 2025-08-18 16:18:03
 cover: https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/27bacbb21dd78847dcfc050a61c0212a84300ee5-1920x1387.png?auto=format&fit=fill&q=80&h=613
 categories:
-  - faq
-  - rules
+  - 规则
+  - FAQ
 ---
 ## 是否是“目标”？
 法术或技能中提及的物体或玩家只有当以下 **所有条件** 均成立时才算作目标：  

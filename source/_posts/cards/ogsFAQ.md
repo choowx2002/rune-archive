@@ -3,8 +3,8 @@ title: OGS系列 FAQ
 date: 2025-08-21 21:00:00
 excerpt: "关于试炼之地系列的常见问题"
 categories:
- - faq
- - cards
+ - 卡牌
+ - FAQ
 tags:
  - OGS
 ---
