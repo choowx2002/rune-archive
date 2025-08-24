@@ -7,7 +7,6 @@ categories:
     - FAQ
 tags:
     - OGS
-sticky: 999
 ---
 
 {% faq "OGS-001 安妮，汹涌烈焰" "https://cdn.jsdelivr.net/gh/choowx2002/project_k_image@main/OGS/cn/OGS-001.png" %}

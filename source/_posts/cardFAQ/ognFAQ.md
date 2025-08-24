@@ -7,7 +7,6 @@ categories:
  - FAQ
 tags:
  - OGN
-sticky: 999
 ---
 
 {% faq "OGN-007 炽烈符文" "https://cdn.jsdelivr.net/gh/choowx2002/project_k_image@latest/OGN/cn/OGN-007.png" %}

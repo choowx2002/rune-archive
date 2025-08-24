@@ -188,6 +188,8 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house
+    News: 
+      path: /news/
     # Guides: 
     #   path: /categories/教学/
     Rules:
