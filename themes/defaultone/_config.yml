@@ -111,7 +111,7 @@ home_banner:
   # Whether to enable home banner
   enable: true
   # style of home banner
-  style: static # static or fixed
+  style: fixed # static or fixed
   # Home banner image
   image: 
     light: /images/bg-main.jpg # light mode
@@ -196,7 +196,7 @@ navbar:
         Documentation: /docs/
     Cards:
       submenus:
-        Card List: /card/
+        TOC: /card/
         Card FAQ: /cardFaqs/
         Errata: /erratas/
     Changelog:
@@ -236,7 +236,7 @@ home:
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
   # Article excerpt length
-  excerpt_length: 100 # Max length of article excerpt
+  excerpt_length: 200 # Max length of article excerpt
   # Article categories visibility
   categories:
     enable: true  # Whether to enable

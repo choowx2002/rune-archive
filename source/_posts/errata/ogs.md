@@ -2,8 +2,7 @@
 title: OGS系列 卡牌勘误
 date: 2025-08-19 07:30:00
 excerpt: "关于试炼之地系列的卡牌勘误"
-tags:
- - OGS
+tags: [OGS, 勘误]
 sticky: 999
 ---
 {% notel blue 提示 %}

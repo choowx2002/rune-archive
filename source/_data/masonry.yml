@@ -1,4 +1,4 @@
-# - image: /images/1.jpg
+# - image: "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/da48b48ebce3dfbbd8d706c145c24eccc4fb9c31-844x844.png?auto=format&fit=crop&q=80&h=366&w=366&crop=center"
 #   title: Image title 1
 #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod
 

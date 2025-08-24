@@ -2,8 +2,7 @@
 title: OGN系列 卡牌勘误
 date: 2025-08-19 07:30:00
 excerpt: "关于起源系列的卡牌勘误"
-tags:
- - OGN
+tags: [OGN, 勘误]
 sticky: 999
 ---
 {% notel blue 提示 %}
