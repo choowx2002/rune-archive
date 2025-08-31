@@ -186,7 +186,7 @@ navbar:
   # Navbar links
   links:
     Home: 
-      path: / 
+      path: /
       icon: fa-regular fa-house
     News: 
       path: /news/
@@ -205,6 +205,9 @@ navbar:
       path: /archives
     About:
       path: /about
+    # Tools:
+    #   submenus:
+    #     Chain Tools: /chaintools
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
     # Whether to enable
@@ -225,9 +228,6 @@ home:
     announcement: "已经更新官方小程序最新勘误和FAQ" # Announcement text
     show_on_mobile: false # Whether to show sidebar navigation on mobile sheet menu
     links:
-      # Archives: 
-      #   path: /archives 
-      #   icon: fa-regular fa-archive # can be empty
       # Tags: 
       #   path: /tags 
       #   icon: fa-regular fa-tags # can be empty
@@ -323,7 +323,7 @@ articles:
 # ARTICLE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 effects: 
-  particles: true
+  particles: false
   cursoreffects: false
 
 # COMMENT >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
