@@ -595,6 +595,17 @@ tags:
 
 ***
 
+{% faq "OGN-127 加农炮幕" "https://cdn.jsdelivr.net/gh/choowx2002/project_k_image@latest/OGN/cn/OGN-127.png" %}
+[
+  {
+    "q": "当前不存在战斗，对手移动单位进入空战场时，我能否打出加农炮幕。",
+    "a": "可以，但不会造成实际效果。 <a href='https://www.bilibili.com/opus/1108988045816758312'>来源：北京站赛后FAQ</a>"
+  }
+]
+{% endfaq %}
+
+***
+
 {% faq "OGN-128 决斗" "https://cdn.jsdelivr.net/gh/choowx2002/project_k_image@latest/OGN/cn/OGN-128.png" %}
 [
   {
@@ -611,6 +622,10 @@ tags:
   {
     "q": "玩家将大副打出到一个战场，由于罡风的效果大副返回了手牌，大副的技能触发吗？",
     "a": "触发，大副的技能已经进入结算链。 <em>（来源：符文战场小程序）</em>"
+  },
+  {
+    "q": "当我打出【大副】时，场上只存在对手的【奇亚娜，所向披靡】，我是否必须选择将【奇亚娜，所向披靡】活跃，并在选择时支付法盾费用？",
+    "a": "是的。 <a href='https://www.bilibili.com/opus/1108988045816758312'>来源：北京站赛后FAQ</a>"
   }
 ]
 {% endfaq %}
@@ -694,11 +709,41 @@ tags:
 
 ***
 
+{% faq "OGN-155 奇亚娜，所向披靡" "https://cdn.jsdelivr.net/gh/choowx2002/project_k_image@latest/OGN/cn/OGN-155.png" %}
+[
+  {
+    "q": "奇亚娜的“当我征服一处战场时”效果，抽牌与召出休眠符文的选择，是在触发时进行，还是在结算时进行？",
+    "a": "结算时。<a href='https://www.bilibili.com/opus/1108988045816758312'>来源：北京站赛后FAQ</a>"
+  }
+]
+{% endfaq %}
+
+***
+
 {% faq "OGN-156 暗中破坏" "https://cdn.jsdelivr.net/gh/choowx2002/project_k_image@latest/OGN/cn/OGN-156.png" %}
 [
   {
     "q": "玩家使用暗中破坏，发现敌方手牌中没有非单位卡牌，玩家在这张暗中破坏结算后，还可以使用第二张暗中破坏吗？",
     "a": "是的，你可以。在对方玩家展示之后，他的手牌会再次变为私密信息。 <em>（来源：符文战场小程序）</em>"
+  }
+]
+{% endfaq %}
+
+***
+
+{% faq "OGN-158 沃利贝尔，雄浑巨力" "https://cdn.jsdelivr.net/gh/choowx2002/project_k_image@latest/OGN/cn/OGN-158.png" %}
+[
+  {
+    "q": "【沃利贝尔，雄浑巨力】不在战场时，其技能能否被触发？",
+    "a": "不能。 <a href='https://www.bilibili.com/opus/1108988045816758312'>来源：北京站赛后FAQ</a>"
+  },
+  {
+    "q": "我方【沃利贝尔，雄浑巨力】在战场A时，对手将3个单位一起移动至战场B，我方抽几张牌？",
+    "a": "一张。 <a href='https://www.bilibili.com/opus/1108988045816758312'>来源：北京站赛后FAQ</a>"
+  },
+  {
+    "q": "我方【沃利贝尔，雄浑巨力】在战场A时，对手将3个单位分别移动至战场B，我方抽几张牌？",
+    "a": "三张。 <a href='https://www.bilibili.com/opus/1108988045816758312'>来源：北京站赛后FAQ</a>"
   }
 ]
 {% endfaq %}
@@ -1129,6 +1174,17 @@ tags:
   {
     "q": "如果我将卡面战力为4的单位打出至“崔法利兵营”这个战场上，是否可以触发“不灭狂雷”传奇牌的效果？",
     "a": "可以，在该单位被打出至“崔法利兵营”时就已经由于战场的效果变为[强力]单位，因此能够触发“不灭狂雷”的效果。 <em>(来源：符文战场小程序)</em>"
+  }
+]
+{% endfaq %}
+
+***
+
+{% faq "OGN-250 天声震落"  "https://cdn.jsdelivr.net/gh/choowx2002/project_k_image@latest/OGN/cn/OGN-250.png" %}
+[
+  {
+    "q": "【天声震落】的效果结算与移动会中存在几次清理？",
+    "a": "一次，在【天声震落】全部效果结算完成后执行。 <a href='https://www.bilibili.com/opus/1108988045816758312'>来源：北京站赛后FAQ</a>"
   }
 ]
 {% endfaq %}

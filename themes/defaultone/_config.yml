@@ -225,7 +225,7 @@ home:
     enable: true # Whether to enable sidebar
     position: left # Sidebar position. left, right
     first_item: menu # First item in sidebar. menu, info
-    announcement: "已经更新官方小程序最新勘误和FAQ" # Announcement text
+    announcement: "已经更新北京站赛后规则和单卡FAQ" # Announcement text
     show_on_mobile: false # Whether to show sidebar navigation on mobile sheet menu
     links:
       # Tags: 
