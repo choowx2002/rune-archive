@@ -24,3 +24,16 @@ var(--shadow-color-1) 0px 0px 0px 1px inset;
 .redefine-box-shadow-flat:hover {
   box-shadow: var(--redefine-box-shadow);
 }
+
+.chain-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;   /* make it a circle */
+  object-fit: cover;    /* scale image nicely */
+  vertical-align: middle;
+}
+
+.arrow {
+  margin: 0 6px;
+  font-size: 20px;
+}

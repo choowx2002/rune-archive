@@ -8,9 +8,6 @@ import initLocalSearch from "./tools/localSearch.js";
 import initCopyCode from "./tools/codeBlock.js";
 import initBookmarkNav from "./layouts/bookmarkNav.js";
 import initParticles from "./build/layouts/setup-particles.js";
-// import { emojiCursor } from "cursor-effects";
-// console.log(emojiCursor);
-// new emojiCursor({ emoji: ["🔥", "🐬", "🦆"] });
 
 export const main = {
   themeInfo: {
@@ -80,7 +77,7 @@ export const main = {
 };
 
 export function initMain() {
-  main.printThemeInfo();
+  // main.printThemeInfo();
   main.refresh();
 }
 

@@ -29,3 +29,14 @@ tags:
   }
 ]
 {% endfaq %}
+
+***
+
+{% faq "OGS-015 共同献身" "https://cdn.jsdelivr.net/gh/choowx2002/project_k_image@main/OGS/cn/OGS-015.png" %}
+[
+  {
+    "q": "针对随从，是在打出时选择位置,还是在结算时选择位置？",
+    "a": "结算时。打出位置是打出随从时的选择，不是法术效果的选择。<a href='https://www.bilibili.com/opus/1106492573155852293'>来源：区域公开赛FAQ</a>"
+  }
+]
+{% endfaq %}

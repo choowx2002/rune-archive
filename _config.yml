@@ -131,4 +131,4 @@ search:
   content: true
   format: striptags
 
-all_minifier: true
+all_minifier: false
