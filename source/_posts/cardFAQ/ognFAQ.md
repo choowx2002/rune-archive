@@ -311,7 +311,7 @@ tags:
 
 ***
 
-{% faq "OGN-079 驭风而行" "https://cdn.jsdelivr.net/gh/choowx2002/project_k_image@latest/OGN/cn/OGN-079.png" %}
+{% faq "OGN-079 蕾欧娜，献身者" "https://cdn.jsdelivr.net/gh/choowx2002/project_k_image@latest/OGN/cn/OGN-079.png" %}
 [
   {
     "q": "我方战场上两个驭水者，同时被眩晕的情况下，对面蕾欧娜-献身者进攻此处战场，此时我方打出驭风而行移动其中一个驭水者，此时我的战场上驭水者战力为多少？",
