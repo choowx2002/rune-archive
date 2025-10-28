@@ -36,6 +36,14 @@ tags: [OGN, 勘误]
 |横置：你打出的下一个法术造成的伤害+1（每段伤害都+1）。<br><br>tap: The next spell you play deals 1 Bonus Damage. (Each instance of damage the spell deals is increased by 1.)|横置：___在本回合内___ 你打出的下一个法术造成的伤害+1（每段伤害都+1）。<br><br>[E]: The next spell you play ___this turn___ deals 1 Bonus Damage. (Each instance of damage the spell deals is increased by1.)|
 
 ***
+### OGN-044	小小守护者
+明确了是个打出触发技能。
+
+| **原文** | **勘误后** |
+| -------- | -------- |
+|打出我时，你可以选择额外支付[C]来抽一张牌。<br><br>As you play me, you may pay [C] as an additional cost. If you do, draw 1.|你可以选择支付[C]，作为打出我的额外费用。<br>当你打出我时，如果你支付了该额外费用，则抽一张牌。<br><br>You may pay [C] as an additional cost to play me.<br>When you play me, if you paid the additional cost, draw 1.|
+
+***
 ### OGN-073	娑娜，清心谐律
 需要选择多个目标的触发式技能会导致无法按预期工作。因此，我们将对绝大多数触发式技能添加“最多”这一词汇。
 | **原文** | **勘误后** |
@@ -61,7 +69,7 @@ tags: [OGN, 勘误]
 艾娃对“此处”的限制只对单位有效。她将收到小勘误从而明确这一点。
 | **原文** | **勘误后** |
 | -------- | -------- |
-| 当我进攻时，你可以选择支付[蓝色]，以此从你的手牌中正面朝上打出一张带有[待命]技能的卡牌，无视费用。<br><br>When I attack, you may pay [C] to play a card with [Hidden] from your hand here, ignoring its cost.| 当我进攻时，你可以选择支付[蓝色]，以此从你的手牌中正面朝上打出一张带有[待命]技能的卡牌，无视费用。___如果打出的是单位，将其打出在此处。___<br><br>When I attack, you may pay [C] to play a card with [Hidden] from your hand, ignoring its cost. ___If it’s a unit, play it here.___ |
+| 当我进攻时，你可以选择支付[蓝色]，以此从你的手牌中正面朝上打出一张带有[待命]技能的卡牌，无视费用。<br><br>When I attack, you may pay [C] to play a card with [Hidden] from your hand here, ignoring its cost.| 当我进攻时，你可以选择支付[蓝色]，以此从你的手牌中正面朝上打出一张带有[待命]技能的卡牌，无视费用。___如果其为单位，则将其打出到此处。___<br><br>When I attack, you may pay [C] to play a card with [Hidden] from your hand, ignoring its cost. ___If it’s a unit, play it here.___ |
 
 ***
 ### OGN-108	聚合变异
@@ -70,14 +78,14 @@ tags: [OGN, 勘误]
 
 | **原文** | **勘误后** |
 | -------- | -------- |
-| 反应（可在任意时机打出，甚至先于其他法术和技能的结算。）<br>选择一名友方单位。如果其战力低于另一名友方单位，则让其在本回合内 ___变为___ 后者的战力。<br><br>Reaction (Play any time, even before spells and abilities resolve.)<br>Choose a friendly unit. ___Increase its Might until it equals the Might of another friendly unit.___ | 反应（可在任意时机打出，甚至先于其他法术和技能的结算。）<br>选择一名友方单位。如果其战力低于另一名友方单位，则让其在本回合内 ___增加至___ 后者的战力。<br><br>Reaction (Play any time, even before spells and abilities resolve.)<br>Choose a friendly unit. ___This turn, increase its Might to the Might of another friendly unit.___ |
+| 反应（可在任意时机打出，甚至先于其他法术和技能的结算。）<br>选择一名友方单位。如果其战力低于另一名友方单位，则让其在本回合内 ___变为___ 后者的战力。<br><br>Reaction (Play any time, even before spells and abilities resolve.)<br>Choose a friendly unit. ___Increase its Might until it equals the Might of another friendly unit.___ | 反应（可在任意时机打出，甚至先于其他法术和技能的结算。）<br>选择一名友方单位。本回合内，将其战力 ___提升至___ 与另一名友方单位战力相同。<br><br>Reaction (Play any time, even before spells and abilities resolve.)<br>Choose a friendly unit. ___This turn, increase its Might to the Might of another friendly unit.___ |
 
 ***
 ### OGN-115	光明未来
 
 | **原文** | **勘误后** |
 | -------- | -------- |
-| 每名玩家可以查看主牌堆顶部的五张牌，___从中选择一张___，然后回收其余的卡牌。从下一名玩家开始，每名玩家打出这些卡牌，并无视其法力费用（仍需支付所有符能费用）。<br><br>Each player looks at the top 5 cards of their Main Deck, chooses one, ___then recycles the rest.___ Starting with the next player, each player plays those cards, ignoring Energy costs. (They must still pay Power costs.) | 每名玩家查看其主牌堆顶部的五张牌，___放逐其中一张，然后回收其余的卡牌。从下一名玩家开始，每名玩家打出这些被放逐的卡牌___，并无视其法力费用（仍需支付所有符能费用）。<br><br>Each player looks at the top 5 cards of their Main Deck, ___banishes one, then recycles the rest.___ Starting with the next player, each player plays those cards, ignoring Energy costs. (They must still pay Power costs.) |
+| 每名玩家可以查看主牌堆顶部的五张牌，___从中选择一张___，然后回收其余的卡牌。从下一名玩家开始，每名玩家打出这些卡牌，并无视其法力费用（仍需支付所有符能费用）。<br><br>Each player looks at the top 5 cards of their Main Deck, chooses one, ___then recycles the rest.___ Starting with the next player, each player plays those cards, ignoring Energy costs. (They must still pay Power costs.) | 每名玩家查看其主牌堆顶部的五张牌，___放逐其中一张，然后回收其余的卡牌。从下一名玩家开始，每名玩家打出这些被放逐的卡牌___，无视其法力费用（仍需支付所有符能费用）。<br><br>Each player looks at the top 5 cards of their Main Deck, ___banishes one, then recycles the rest.___ Starting with the next player, each player plays those cards, ignoring Energy costs. (They must still pay Power costs.) |
 
 ***
 ### OGN-118	残响之魂
@@ -113,14 +121,14 @@ tags: [OGN, 勘误]
 
 | **原文** | **勘误后** |
 | -------- | -------- |
-| 反应（可在任意时机打出，甚至先于其他法术和技能的结算。）<br>无效化本回合内所有 ___法术或技能的伤害。___<br><br>Reaction (Play any time, even before spells and abilities resolve.)<br>Prevent all ___spell and ability damage this turn.___ | 反应（可在任意时机打出，甚至先于其他法术和技能的结算。）<br> ___在本回合内，，抵挡由法术或技能造成的所有伤害。___<br><br>Reaction (Play any time, even before spells and abilities resolve.)<br>Prevent all damage that would be ___dealt this turn by spells and abilities.___ |
+| 反应（可在任意时机打出，甚至先于其他法术和技能的结算。）<br>无效化本回合内所有 ___法术或技能的伤害。___<br><br>Reaction (Play any time, even before spells and abilities resolve.)<br>Prevent all ___spell and ability damage this turn.___ | 反应（可在任意时机打出，甚至先于其他法术和技能的结算。）<br> ___在本回合内，抵挡由法术或技能造成的所有伤害。___<br><br>Reaction (Play any time, even before spells and abilities resolve.)<br>Prevent all damage that would be ___dealt this turn by spells and abilities.___ |
 
 ***
 ### OGN-160	闪耀极光
 
 | **原文** | **勘误后** |
 | -------- | -------- |
-| 在你的回合即将结束时，从主牌堆顶部开始逐一展示卡牌，___直到翻出一名单位为止，___ 然后将其打出，无视费用，并回收其余的卡牌。<br><br>At the end of your turn, reveal cards from the top of your Main Deck until you ___reveal a unit.___ Play it, ignoring its cost, and recycle the rest. | 在你的回合即将结束时，从主牌堆顶部开始逐一展示卡牌，___直到翻出一名单位为止，将其放逐，___ 将其打出，无视费用，并回收其余的卡牌。<br><br>At the end of your turn, reveal cards from the top of your Main Deck until you ___reveal a unit and banish it.___ Play it, ignoring its cost, and recycle the rest. |
+| 在你的回合即将结束时，从主牌堆顶部开始逐一展示卡牌，___直到翻出一名单位为止，___ 然后将其打出，无视费用，并回收其余的卡牌。<br><br>At the end of your turn, reveal cards from the top of your Main Deck until you ___reveal a unit.___ Play it, ignoring its cost, and recycle the rest. | 在你的回合结束时，从主牌堆顶部开始逐一展示卡牌，___直到翻出一名单位为止，将其放逐，___ 然后将其打出，无视费用，并回收其余的卡牌。<br><br>At the end of your turn, reveal cards from the top of your Main Deck until you ___reveal a unit and banish it.___ Play it, ignoring its cost, and recycle the rest. |
 
 ***
 ### OGN-181	奇妙行囊
@@ -149,6 +157,12 @@ tags: [OGN, 勘误]
 | **原文** | **勘误后** |
 | -------- | -------- |
 | 待命（支付[A]正面朝下放置此牌，之后可支付[0]将其当作反应牌打出。）<br>当你打出我时，你可以选择受你控制的一名单位，然后把我移动到其所在位置，再将其移动到我原来的位置。<br><br> [Hidden] (Hide now for [A] to react with later for [0].) <br>When you play me, you may ___choose a friendly unit.___ Move me to its location and it to my original location. | 待命（支付[A]正面朝下放置此牌，之后可以支付[0]将其当做反应牌打出。<br>当你打出我时，你可以选择 ___一名在其他位置___ 受你控制的单位。把我移动到其所在位置，再将其移动到我原来的位置。<br><br>[Hidden] (Hide now for [A] to react with later for [0].) <br>When you play me, you may ___choose a unit you control at another location.___ Move me to its location and it to my original location. |
+***
+### OGN-224	废物利用	
+明确了可以空发。
+| **原文** | **勘误后** |
+| -------- | -------- |
+| [迅捷]（可在你的回合或法术对决中打出。）<br>你可以选择摧毁一件装备。抽一张牌。<br><br>[Action] (Play on your turn or in showdowns.)<br>You may kill a gear. Draw 1. | [迅捷]（可在你的回合或法术对决中打出。）<br>你可以选择摧毁 ___最多___ 一件装备。抽一张牌。<br><br>[Action] (Play on your turn or in showdowns.)<br>You may kill up to one gear. Draw 1. |
 
 ***
 ### OGN-227	烈阳徽记	
@@ -206,6 +220,12 @@ tags: [OGN, 勘误]
 | -------- | -------- |
 | 当你征服此处时，选择两枚符文，并在本回合结束时，让它们变为活跃状态。<br><br>When you conquer here, ready 2 runes at the end of this turn. | 当你征服此处时，选择 ___最多___ 两枚符文，并在本回合结束时，让它们变为活跃状态。<br><br>When you conquer here, ready ___up to___ 2 runes at the end of this turn. |
 
+***
+### OGN-292	幻梦之树
+
+| **原文** | **勘误后** |
+| -------- | -------- |
+| 每回合首次：当你对此处的友方单位使用法术时，抽一张牌。<br><br>The first time you choose a friendly unit with a spell here each turn, draw 1. |  每回合首次，当玩家将此处的一名友方单位选为法术目标时，该玩家抽一张牌。<br><br>When a player chooses a friendly unit here with a spell for the first time each turn, they draw 1.|
 ***
 ### OGN-296	虚空之门
 虚空之门产生的额外伤害只会对在虚空之门上的单位生效。它将收到勘误以澄清这一点。
